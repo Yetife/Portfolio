@@ -59,8 +59,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            Adipiscing arcu, in aliquam fringilla cursus. Elit arcu elementum
-            viverra malesuada sem ac faucibus dolor. Sagittis scelerisque.
+            I'm a Results-driven Frontend Engineer with a strong foundation in crafting responsive, user-friendly web applications using advanced JavaScript frameworks such as React.js, Next.js, Vue.js, Nuxt.js, and Vuex. Demonstrated success in driving impactful solutions
           </p>
         </motion.div>
 

@@ -24,8 +24,15 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-            fames odio in at.
+            Next.js,
+            TypeScript, Javascript
+            Vue.js, Nuxt.js,
+            React.js, Redux, Context Api,
+            Version Control (Git),
+            Agile Methodologies,
+            Tailwind CSS, Material UI,
+            HTML5, CSS3, JavaScript,
+            API Integration (REST, GraphQL),
           </p>
         </motion.div>
 
@@ -71,9 +78,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            Build and maintain web applications using Vue.js, React.js, and TypeScript, delivering optimized performance, and enhancing user engagement.
           </p>
         </motion.div>
 

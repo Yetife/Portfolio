@@ -15,7 +15,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title, description }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -25,11 +25,10 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          {description}
         </p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -80,16 +79,16 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="Enum web" description={"This platform includes a Learning management platform, Recruiting platform, and training platform. Built reusable and modularised components."}/>
+          <Project title="Semicolon Website" description={""}/>
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Cryptocurrency App" description={"Cryptocurrency App built with React and Redux toolkit"}/>
+          <Project title="Admin Dashboard" description={""}/>
+          <Project title="Estate App" description={""}/>
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
+          <Project title="Cowbell UI" description={"Cowbell Coffee \"Station on Tour\" Activation Synopsis"}/>
           <Project title="Project 7" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
